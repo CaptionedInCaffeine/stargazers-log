@@ -2,10 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <main id="main-content" class="page-shell">
+      <header>
+        <p class="eyebrow">Personal collection / 2026</p>
+        <h1>Stargazers log</h1>
+        <p class="intro">A considered list of repositories worth keeping close, from tools that sharpen the work to ideas that make the web more interesting.</p>
+      </header>
+
+      <section aria-labelledby="list-title">
+        <div class="list-heading">
+          <h2 id="list-title">Recently starred</h2>
+          <span id="repo-count" aria-live="polite">Loading...</span>
+        </div>
+        <!-- aria-busy starts true; script will remove it when loading completes -->
+        <div id="repo-list" class="repo-list" aria-busy="true"></div>
+        <p id="status" class="status" role="status">Loading repository log...</p>
+      </section>
+    </main>
+
+    <noscript>
+      <div class="noscript-message" role="status">
+        <p>This page requires JavaScript to show the latest starred repositories. You can view the sample data at <a href="events.json">events.json</a>.</p>
+      </div>
+    </noscript>
+
+    <script src="script.js" defer></script>
   </body>
 </html>
