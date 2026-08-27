@@ -1,0 +1,17 @@
+[
+  {
+    "full_name": "sindresorhus/awesome",
+    "html_url": "https://github.com/sindresorhus/awesome",
+    "description": "A curated list of awesome lists"
+  },
+  {
+    "full_name": "denoland/deno",
+    "html_url": "https://github.com/denoland/deno",
+    "description": "A secure runtime for JavaScript and TypeScript"
+  },
+  {
+    "full_name": "tailwindlabs/tailwindcss",
+    "html_url": "https://github.com/tailwindlabs/tailwindcss",
+    "description": "A utility-first CSS framework for rapid UI development"
+  }
+]
